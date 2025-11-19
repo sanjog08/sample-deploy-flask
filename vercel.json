@@ -7,8 +7,10 @@
             "config": {"runtime": "python 3.6"}
         }
     ],
-    "routes": {
-        "src": "/(.*)",
-        "dest": "/index.py"
-    }
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/index.py"
+        }
+    ]
 }
